@@ -1,32 +1,56 @@
-#BitsCrypter Command Line Utility
-##Version: 1.0
-##Developed By: TriDev
-##Licensed To: 
+# BitsCrypter Command Line Utility
+## Version: 1.0
+## Developed By: TriDev
+## Licensed To: 
 
-###Usage: bitscrypter [OPTIONS]...  [FILENAME]... 
-###Encrypt and Decrypt a file. 
-###Or Create A Key File(for later use in encryption and decryption).
+**Encrypt and Decrypt a file.**
+**Or Create A Key File(for later use in encryption and decryption)**.
+ 
+ 
+ 
+ **Usage: bitscrypter (OPTIONS)...  (FILENAME)...**  
+ **Options And Arguments (According TO Environment Values):**
 
-####Options And Arguments (According TO Environment Values):
--e [filelocation]              : Encrypts A File And Create A Key
--d [filelocaton] [keylocation] : Decrypts The File Using The Sppecified Key
--k [filename]                  : Creates The Key (With The Sppecified Name)
---password Password            : Encrypt Using The Given Text Password
---help                         : Prints This Content
+-e (file_location)               : Encrypts A File And Create A Key
+
+-d (file_locaton) (key_location) : Decrypts The File Using The Sppecified Key
+
+-k (file_name)                   : Creates The Key (With The Sppecified Name)
+
+--password Password              : Encrypt Using The Given Text Password
+
+--help                           : Prints This Content
 
 
---encrypt [options] [filelocation] 
-Usage: bitscrypter --encrypt [OPTIONS] [FILENAME]
-Options: 
--k [keylocation]               : Specify The Key To Use In Encryption Of File
---deloriginal                  : Delete The Original File (File In Use)
 
-Define Level Of Encryption:
-Usage: bitscrypter --encrypt --high-risk [OPTION] [FILENAME]
-       bitscrypter -e --low-risk [OPTION] [FILENAME]
-Options:
+
+#### --encrypt (options) (file_location) 
+
+**Usage: bitscrypter --encrypt (OPTIONS) (FILENAME)**
+
+**Options:** 
+
+-k (key_location)               : Specify The Key To Use In Encryption Of File
+
+--del-original                  : Delete The Original File (File In Use)
+
+
+
+
+
+#### Define Level Of Encryption:
+
+**Usage: bitscrypter --encrypt --high-risk (OPTION) (FILENAME)**
+
+**bitscrypter -e --low-risk (OPTION) (FILENAME)**
+
+**Options:**
+
 --high-risk                    : Encypts The File With High Level Encryption
---low-risk                     : Encrypt The File With Low Level Encryption 
+
+--low-risk                     : Encrypt The File With Low Level Encryption
 
 
-###Tricky Developer(TriDev) -- vibhuti019
+## Author
+* **Vibhuti Singh** - **_College Student_** :wink: -[ABES Engineering College,Ghaziabad](https://www.abes.ac.in/)
+  **_Also_** : **Triaxial Developer** : **_(TriDev)_**
