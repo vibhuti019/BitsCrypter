@@ -1,7 +1,6 @@
 # BitsCrypter Command Line Utility
 ## Version: 1.0
 ## Developed By: TriDev
-## Licensed To: 
 
 **Encrypt and Decrypt a file.**
 **Or Create A Key File(for later use in encryption and decryption)**.
