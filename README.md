@@ -1,13 +1,13 @@
-#BitsCrypter Command Line Utility
-##Version: 1.0
-##Developed By: TriDev
-##Licensed To: 
+# BitsCrypter Command Line Utility
+## Version: 1.0
+## Developed By: TriDev
+## Licensed To: 
 
-###Usage: bitscrypter [OPTIONS]...  [FILENAME]... 
-###Encrypt and Decrypt a file. 
-###Or Create A Key File(for later use in encryption and decryption).
+### Usage: bitscrypter [OPTIONS]...  [FILENAME]... 
+### Encrypt and Decrypt a file. 
+### Or Create A Key File(for later use in encryption and decryption).
 
-####Options And Arguments (According TO Environment Values):
+#### Options And Arguments (According TO Environment Values):
 -e [filelocation]              : Encrypts A File And Create A Key
 -d [filelocaton] [keylocation] : Decrypts The File Using The Sppecified Key
 -k [filename]                  : Creates The Key (With The Sppecified Name)
@@ -29,4 +29,4 @@ Options:
 --low-risk                     : Encrypt The File With Low Level Encryption 
 
 
-###Tricky Developer(TriDev) -- vibhuti019
+### Tricky Developer(TriDev) -- vibhuti019
