@@ -3,11 +3,12 @@
 ## Developed By: TriDev
 ## Licensed To: 
 
-**Usage: bitscrypter (OPTIONS)...  (FILENAME)...** 
 **Encrypt and Decrypt a file.**
 **Or Create A Key File(for later use in encryption and decryption)**.
  
  
+ 
+ **Usage: bitscrypter (OPTIONS)...  (FILENAME)...**  
  **Options And Arguments (According TO Environment Values):**
 
 -e (file_location)               : Encrypts A File And Create A Key
@@ -19,6 +20,8 @@
 --password Password              : Encrypt Using The Given Text Password
 
 --help                           : Prints This Content
+
+
 
 
 #### --encrypt (options) (file_location) 
@@ -33,14 +36,15 @@
 
 
 
+
+
 #### Define Level Of Encryption:
 
 **Usage: bitscrypter --encrypt --high-risk (OPTION) (FILENAME)**
 
 **bitscrypter -e --low-risk (OPTION) (FILENAME)**
 
-
-#### Options:
+**Options:**
 
 --high-risk                    : Encypts The File With High Level Encryption
 
